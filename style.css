@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;<!-- adding this allows you to not have to calculate exact size of width.
+  }
+
+
+html {
+  font-family: sans-serif;
+     }
+
+h1{
+   width: 500px;
+   background: #333742;
+   color: #e0e0d1;
+   text-align: center;
+   padding: 20px;
+   border: solid #7da0cc;
+   margin: 20px 20px;
+  }
+
+ div.boxes{
+   background: #8797a8;
+   padding: 20px;
+ }
+
+.box{
+  float: left;
+  width: 24.333333%;
+  padding: 20px;
+  border: 10px solid lightgray;
+}
+
+/*clearfix*/
+.boxes::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+h2{
+  color: lightgray;
+  text-align: center;
+}
+
+
+
+.box1{
+  background: green;
+}
+
+.box2{
+  background: orange;
+}
+
+.box3{
+  background: purple;
+}
+
+.box4{
+  background: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
